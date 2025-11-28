@@ -67,10 +67,10 @@ vityarthi_proj/
   
 
 ### Java Version
-![Java Version](screenshots/java_version.png)
+![Java Version]([screenshots/java_version.png](https://github.com/suhani28-k/vityarthi-project-CCRM-/blob/cf774eaa1fff7c21f75389a95d0d92bc58853f30/java_version.png))
 
 ### IDE Setup
-![IDE Setup](screenshots/intellij_setup.png)
+![IDE Setup]([screenshots/intellij_setup.png](https://github.com/suhani28-k/vityarthi-project-CCRM-/blob/ee9666a75830841bee4009ba53b835d518bf7bf1/intellij_setup.png))
 
 ### Program Running
 ![image alt](https://github.com/suhani28-k/vityarthi-project-CCRM-/blob/6b39af1832fca62991e50287c9f223fdf82e17ca/Output%201.png)
