@@ -4,6 +4,7 @@
 This project manages campus courses, students, teachers, and enrollments.
 It allows you to view students, courses, and their enrollments.
 It is built using Java and uses CSV files (optional) for test data.
+The project follows a clean layered architecture and includes fully documented design artifacts such as UML diagrams, ER diagram, sequence diagram, flowcharts, and architecture diagrams.
 
 ## Features
 - Manage students, courses, and teachers
@@ -25,7 +26,17 @@ vityarthi_proj/
 │   ├── students.csv
 │   ├── courses.csv
 │   └── enrollments.csv
-├── README.md             # Project documentation
+
+├── docs/                  # All diagrams
+│   ├── er_diagram.png
+│   ├── class_diagram.png
+│   ├── sequence_diagram.png
+│   ├── system_architecture.png
+│
+├── project_report.pdf
+├── statement.md  
+└── flowchart.png
+├── README.md            # Project documentation
 └── USAGE.md              # Instructions to run the project
 
 
@@ -34,6 +45,15 @@ vityarthi_proj/
 - IDE like IntelliJ IDEA or Eclipse
 - (Optional) CSV files for test data
 
+  ##Functional Requirements
+-Manage student records
+-Manage teachers and departments
+-Manage courses and semesters
+-Enroll students into courses
+-Record grades and performance
+-Generate detailed student transcripts
+-List all students, teachers, courses, and enrollments
+
 ## How to Run
 1. Open the project in your IDE
 2. Make sure `test-data/` folder is present (if using CSV files)
@@ -41,6 +61,10 @@ vityarthi_proj/
 4. Check console output for students, courses, and enrollments
 
 ## Screenshots
+  # System Architecture
+  ![image alt](https://github.com/suhani28-k/vityarthi-project-CCRM-/blob/a5ef57bec8a9c85abb849b28fb0d4369a8218a6b/Architectural%20Overview.png)
+  image are icluded in project report 
+  
 
 ### Java Version
 ![Java Version](screenshots/java_version.png)
@@ -49,9 +73,18 @@ vityarthi_proj/
 ![IDE Setup](screenshots/intellij_setup.png)
 
 ### Program Running
-![Program Running](screenshots/programme_output1.png)
-![Program Running](screenshots/programme_output2.png)
+![image alt](https://github.com/suhani28-k/vityarthi-project-CCRM-/blob/6b39af1832fca62991e50287c9f223fdf82e17ca/Output%201.png)
+![image alt](https://github.com/suhani28-k/vityarthi-project-CCRM-/blob/9200873034472f01211012772da2d158465d238a/output%202.png)
 
+##Testing
+The project includes:
+CSV test-data
+Manual validation test cases
+Input edge-case handling
+Test scenarios include:
+Enrollment validation
+Missing student/course error
+Duplicate enrollment prevention
 
 ## Author
 Suhani Manishankar Katare
